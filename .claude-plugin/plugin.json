@@ -1,0 +1,26 @@
+{
+  "name": "matilha-software-arch-pack",
+  "version": "0.1.0",
+  "description": "Matilha companion pack — 17 software-architecture skills (Caminho C) distilled from Danilo-experience on Argos + Gravicode projects. Covers dependency direction + Lambda chain shape, event-driven boundaries, dual-store architecture (Postgres + DynamoDB), bounded contexts without microservice-spaghetti, and disciplined scaling (Ticker patterns, pull-over-push). You lead. Agents hunt.",
+  "author": {
+    "name": "Danilo de Sousa"
+  },
+  "homepage": "https://github.com/danilods/matilha-software-arch-pack",
+  "repository": "https://github.com/danilods/matilha-software-arch-pack",
+  "license": "MIT",
+  "keywords": [
+    "matilha-pack",
+    "software-architecture",
+    "swarch",
+    "hexagonal",
+    "event-driven",
+    "dual-store",
+    "bounded-contexts",
+    "lambda-chain",
+    "cross-tool",
+    "claude-code",
+    "cursor",
+    "codex",
+    "gemini"
+  ]
+}

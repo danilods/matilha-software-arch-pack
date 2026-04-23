@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "matilha-software-arch-pack",
+  "owner": {
+    "name": "Danilo de Sousa",
+    "email": "danilod2.sousa@gmail.com",
+    "url": "https://github.com/danilods"
+  },
+  "metadata": {
+    "description": "Matilha companion pack — software architecture skills (Caminho C: layering, event-driven, dual-store, bounded contexts, scaling discipline).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "matilha-software-arch-pack",
+      "source": "./",
+      "description": "17 software-architecture skills auto-activated when user intent touches layering, Lambda chain shape, event-driven boundaries, dual-store decisions, bounded contexts, or scaling discipline.",
+      "version": "0.1.0",
+      "category": "swarch",
+      "tags": ["matilha-pack", "swarch", "software-architecture", "event-driven", "bounded-contexts"]
+    }
+  ]
+}
