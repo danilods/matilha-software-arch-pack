@@ -3,6 +3,8 @@
 > **You lead. Agents hunt.**
 > Matilha companion pack — software architecture, Caminho C (opinions-from-practice).
 
+> 🏠 **This is a companion pack.** The official matilha entry point is [**danilods/matilha-skills**](https://github.com/danilods/matilha-skills) — start there for the full install guide + ecosystem overview. Install this pack only after the core is set up (via `/matilha-install` in Claude Code, or the explicit commands below).
+
 17 skills distilled from Danilo-experience on the **Argos** (content-intelligence platform for Brazilian public-exam prep) and **Gravicode** (AI mentor ecosystem) projects. Not a literature summary — patterns that survived contact with production constraints, AWS bills, failure modes, and maintenance over multiple quarters.
 
 ## What makes this pack different
