@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0] — 2026-04-26 — Wave 5h-trigger: deterministic trigger skill
+
+### Added
+
+- **`matilha-software-arch-trigger` skill** — independent activation surface for software-architecture domain. Keyword-rich description (hexagonal, DDD, bounded context, event sourcing, CQRS, outbox, saga, clean architecture, handler as adapter, dependency direction, domain model, aggregate, CDC, pipeline, ports and adapters, etc.) ensures pack skills enter the conversation whenever the domain appears in user prompts.
+- Complements `matilha-skills`'s routing table (`skills/matilha-compose/routing-table.md`); together they form Wave 5h's Maximum Deterministic Activation surface.
+
+### Notes
+
+- Fully additive: existing 17 skills untouched. Pack continues to work standalone or with `matilha-skills` (Matilha core).
+- Trigger is a routing surface, not a craft skill — emits a compact domain acknowledgment and hands off to the most relevant pack skill via the Skill tool.
+- No behavior change when pack is uninstalled: trigger emits a `/matilha-install` nudge and yields to default flow.
+
 ## [0.1.0] — 2026-04-23 — Wave 5h: initial release
 
 ### Added
